@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 import math
-import sys
+
+eps = 1e-10
 
 if __name__ == '__main__':
-    eps = 1e-10
     k = 0
     n = int(input("Enter n: "))
     x = float(input("Enter x: "))
